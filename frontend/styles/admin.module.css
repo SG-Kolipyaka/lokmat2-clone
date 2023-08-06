@@ -1,0 +1,42 @@
+.form22 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid brown;
+    border-radius: 8px;
+  }
+  
+  .ddf {
+    margin-bottom: 20px;
+  }
+  
+  .ddf>label {
+    font-weight: bold;
+  }
+  
+  .ddf>input[type='text'],
+  .ddf>input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid brown;
+    border-radius: 4px;
+  }
+  
+  .ddf>input[type='submit'] {
+    background-color: brown;
+    color: white;
+
+  }
+  
+  .ddf>input[type='submit']:hover {
+    background-color: brown;
+  }
+  
+  .ddf>input[type='text']:focus {
+    outline: none;
+    border-color: gray;
+  }
+  

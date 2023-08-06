@@ -1,0 +1,131 @@
+
+
+.firstblock{
+    display:"flex";
+    justify-content:"space-evenly";
+    margin-left:"10px";
+    width:"56%"
+}
+
+ .wrapper{
+    
+   display: grid;
+   gap:0px;
+   grid-auto-flow: column;
+   grid-auto-columns: 50%;
+   overflow-x: auto;
+   overscroll-behavior-inline: contain;
+  
+} 
+
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.item1{
+    border-bottom: 1px solid gray;
+    text-align: left;
+    width: 80%;
+    
+}
+
+.item{
+border-radius: 20px;
+}  
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.but1{
+    height: 50px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+     
+    .wrapper>h2{
+    
+        display: grid;
+        gap:30px;
+        grid-auto-flow: column;
+        grid-auto-columns: 50%;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        font-size: 18px;
+       
+     } 
+     
+     
+     .wrapper::-webkit-scrollbar{
+         width: 0;
+     }
+     .item1{
+        border-bottom: 1px solid gray;
+        font-size: 18px;
+    }
+    
+    .item{
+    border-radius: 20px;
+    }  
+    
+    .div1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .side1{
+        font-size: 10px;
+        text-align: left;
+    }
+    .home1{
+        font-size: 10.5px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    
+    .wrapper{
+    
+        display: grid;
+        gap:30px;
+        grid-auto-flow: column;
+        grid-auto-columns: 50%;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+       font-size: 18px;
+     } 
+     
+     
+     .wrapper::-webkit-scrollbar{
+         width: 0;
+     }
+     .item1{
+        border-bottom: 1px solid gray;
+        font-size: 10px;
+    }
+    
+    .item{
+    border-radius: 20px;
+    }  
+    
+    .div1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .side1{
+        font-size: 10px;
+    }
+    .home1{
+        font-size: 10.5px;
+    }
+  }

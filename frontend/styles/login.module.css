@@ -1,0 +1,51 @@
+/* CSS for SignIn component */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+  
+  .better {
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .better h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .better label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .better input[type='text'],
+  .better input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid silver;
+    border-radius: 4px;
+  }
+  
+  .better button {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    color: wheat;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .better .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+ 

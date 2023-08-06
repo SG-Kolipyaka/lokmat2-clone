@@ -1,0 +1,45 @@
+/* CSS for SignUp component */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 510px;
+  }
+  
+  .formcontainer {
+    width: 300px;
+    padding: 4px;
+    border-radius: 8px;
+  }
+  
+  .formcontainer>h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formcontainer>label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formcontainer>input[type='text'],
+  .formcontainer>input[type='email'],
+  .formcontainer>input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+  
+  .formcontainer>input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    color: wheat;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
